@@ -468,7 +468,7 @@ lose();
 function noone(){
 <!--押せないボタンにする -->
 document.getElementById("psum").innerHTML ="合計：" + psum+"<br>"+onmore+osenai1+"　"+osenai2;
-document.getElementById("battle").innerHTML ="合計："+psum+"　でリオと勝負しますか？"+battlego+"　"+battleno;
+document.getElementById("battle").innerHTML ="合計："+psum+"　でリオンと勝負しますか？"+battlego+"　"+battleno;
 }
 
 
@@ -498,7 +498,7 @@ return;
 <!--rioの合計 -->
 function rio(){
 var rio=Math.floor(Math.random()*4+18);
-var battledisp= "あなた："+psum+"　ＶＳ　Rio："+rio;
+var battledisp= "あなた："+psum+"　ＶＳ　Rion："+rio;
 var result="";
 if(psum>rio){
 result="Win!!";
